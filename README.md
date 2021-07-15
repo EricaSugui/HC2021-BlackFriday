@@ -1,3 +1,16 @@
+# HC-BlackFriday
+Desafio de HTML, CSS e JS.
+## O Desafio
+Criar um sistema de cadastro de email em uma landing page para recebimento de novidades e promoções
+## O que foi feito
+Página em HTML e CSS puros.  
+O email é salvo em localStorage usando script JS.  
+Usei interpolação para recuperar o nome entrado e também o email.  
+Usei uma função javascript + regex para aplicar uma máscara no email.  
+Usei media query para deixar responsivo em celulares.
+## Está no ar?
+Sim, foi hospedado no netlify.
+### Ericabot :)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
