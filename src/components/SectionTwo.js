@@ -71,7 +71,7 @@ function SectionTwo() {
                         </div>
                         <div className="form-group">
                             <label>Email</label>
-                            <input type="email" id="inputEmail" required="required" placeholder="Insira seu melhor email" id="email" />
+                            <input type="email" id="email" required="required" placeholder="Insira seu melhor email" />
                             <small id="emailHelp" className="form-text text-muted">Nós nunca compartilharemos seu email com outras pessoas.</small>
                         </div>
                         
