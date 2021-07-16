@@ -9,7 +9,7 @@ Usei interpolação para recuperar o nome entrado e também o email.
 Usei uma função javascript + regex para aplicar uma máscara no email.  
 Usei media query para deixar responsivo em celulares.
 ## Está no ar?
-Sim, foi hospedado no netlify.
+Sim, foi hospedado no netlify.   [https://erica-hc-blackfriday2021.netlify.app/](https://erica-hc-blackfriday2021.netlify.app/) 
 ### Ericabot :)
 # Getting Started with Create React App
 
