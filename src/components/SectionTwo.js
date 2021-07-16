@@ -64,18 +64,18 @@ function SectionTwo() {
                 </div>
     
                 <div id="content2">
-                    <form id="form">
+                    <form onSubmit={onClick} id="form">
                         <div className="form-group">
                             <label>Nome</label>
-                            <input type="text" placeholder="Insira seu nome" id="nome" />
+                            <input type="text" placeholder="Insira seu nome" required="required" id="nome" />
                         </div>
                         <div className="form-group">
                             <label>Email</label>
-                            <input type="text" placeholder="Insira seu melhor email" id="email" />
+                            <input type="email" id="inputEmail" required="required" placeholder="Insira seu melhor email" id="email" />
                             <small id="emailHelp" className="form-text text-muted">Nós nunca compartilharemos seu email com outras pessoas.</small>
                         </div>
                         
-                        <button className="btn" type="submit" onClick={onClick}>Cadastrar</button>
+                        <button className="btn" type="submit">Cadastrar</button>
         
                     </form>
                 </div> 
