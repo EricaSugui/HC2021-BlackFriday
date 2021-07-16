@@ -69,6 +69,8 @@ input, button{
     color: #000;
     font-family: 'Nunito Sans', sans-serif;
     font-size: large;
+    text-decoration: none;
+    border: none;
 }
 form{
     display: grid;
@@ -76,9 +78,47 @@ form{
 .form-text{
     font-size: 10px;
 }
+.btn-home{
+    height: 40px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px 0 20px 0;
+    background: red;
+}
+.btn-1{
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-home2{
+    height: 25px;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 20px 0 20px 0;
+    background: red;
+}
+.btn-2{
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
 .btn{
     margin-top: 10px;
     height: 40px;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 
@@ -141,6 +181,31 @@ a{
         color: #000;
         font-family: 'Nunito Sans', sans-serif;
         font-size: medium;
+    }
+    .btn-home, .btn-home2{
+        height: 15px;
+        width: 70%;
+        margin: auto;
+        /* text-align: center; */
+        text-decoration: none;
+        border-radius: 12px;
+        padding: 10px 0 20px 0;
+        background: red;
+    }
+    .btn-1, .btn-2{
+        margin-top: 10px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .btn{
+        margin-top: 10px;
+        height: 40px;
+        background-color: red;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
     }
     
 }

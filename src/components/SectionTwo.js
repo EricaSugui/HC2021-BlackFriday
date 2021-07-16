@@ -1,4 +1,5 @@
 import logo from '../assets/logo.jpg';
+import '../App.css';
 
 function SectionTwo() {
  
@@ -42,6 +43,10 @@ function SectionTwo() {
         <br/>
         <p>Você receberá em primeira mão as nossas ofertas
         no email ${emailMascarado} .</p>
+        <br/><br/>
+        <div class="btn-home2">
+            <a role="button" class="btn-2" href="/">Voltar para a Inicial</a>
+        </div>
         `
     
         let card = document.getElementById('card')
@@ -55,7 +60,7 @@ function SectionTwo() {
  
     return (
       
-      <section className="section-container background-section section-two">
+      <section id="sectionTwo"className="section-container background-section section-two">
         <div className="card" id="card">
             <div className="card-container">
                 <div id="content1">
