@@ -11,10 +11,10 @@ function SectionTwo() {
             email,
         }
         function mascara(email) {
-            var emailMasc = email.replace(/([^@\.])/g, "*").split('');
+            var emailMasc = email.replace(/([^@.])/g, "*").split('');
             var precede	= "";
             for(let i=0;i<emailMasc.length;i++){
-                if (i<=2 || precede == "." || precede == "@"){
+                if (i<=2 || precede === "." || precede === "@"){
                     emailMasc[i] = email[i];
                 }
                 precede = email[i];
